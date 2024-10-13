@@ -1,0 +1,24 @@
+.container {
+    position: relative; 
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 450px;
+    height: 100px;
+    top: 440px;
+    left: 660px;
+    border: blue solid 2px;
+    pointer-events: auto;
+    border-radius: 10%;
+}
+
+.btn:hover {
+    border-color: aqua;
+}
